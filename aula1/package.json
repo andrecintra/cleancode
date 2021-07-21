@@ -1,0 +1,23 @@
+{
+  "name": "aula1",
+  "version": "1.0.0",
+  "description": "Exercicio da Aula 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest __tests__ --watch",
+    "test:coverage": "./node_modules/.bin/jest __tests__ --coverage"
+  },
+  "author": "André Cintra",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "26.0.24",
+    "jest": "27.0.6"
+  },
+  "devDependencies": {
+    "eslint": "7.31.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.0"
+  }
+}
